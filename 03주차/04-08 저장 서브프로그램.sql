@@ -1,0 +1,12 @@
+SET ECHO ON
+SET TAB OFF 
+SET SERVEROUTPUT ON 
+
+REM 파일제목: 실습04-08_저장 서브프로그램_학번성명.sql
+CREATE OR REPLACE FUNCTION square(a_num NUMBER)
+RETURN NUMBER
+IS
+BEGIN
+RETURN a_num * a_num;
+END;
+/
